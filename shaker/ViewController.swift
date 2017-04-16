@@ -7,8 +7,11 @@
 //
 
 import UIKit
+import AVFoundation
 
 class ViewController: UIViewController {
+    
+    var player = AVAudioPlayer()
 
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -16,7 +19,23 @@ class ViewController: UIViewController {
     }
     
     override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
-        <#code#>
+        
+        if event?.subtype == UIEventSubtype.motionShake {
+            
+            let fileLocation = Bundle.main.path(forResource: "burp", ofType: "mp3")
+            
+            do {
+                
+                try player = AVAudioPlayer(contentsOf: URL(fileURLWithPath: fileLocation!))
+                
+                player.play()
+                
+            } catch  {
+                //process error
+            }
+            
+            
+        }
     }
 
     override func didReceiveMemoryWarning() {
