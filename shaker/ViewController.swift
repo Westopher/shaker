@@ -22,7 +22,11 @@ class ViewController: UIViewController {
         
         if event?.subtype == UIEventSubtype.motionShake {
             
-            let fileLocation = Bundle.main.path(forResource: "burp", ofType: "mp3")
+            let soundArray = ["burp", "ambience", "cheering", "choking", "crowd", "cry", "gasp"]
+            
+            let randomNumber = Int(arc4random_uniform(UInt32(soundArray.count)))
+            
+            let fileLocation = Bundle.main.path(forResource: soundArray[randomNumber], ofType: "mp3")
             
             do {
                 

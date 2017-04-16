@@ -14,7 +14,6 @@
 		3D9D6A571EA3E36C00ABCDC2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A551EA3E36C00ABCDC2 /* LaunchScreen.storyboard */; };
 		3D9D6A631EA3F6C400ABCDC2 /* burp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A621EA3F6C400ABCDC2 /* burp.mp3 */; };
 		3D9D6A6B1EA3F71800ABCDC2 /* ambience.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A641EA3F71800ABCDC2 /* ambience.mp3 */; };
-		3D9D6A6C1EA3F71800ABCDC2 /* burp.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A651EA3F71800ABCDC2 /* burp.mp3 */; };
 		3D9D6A6D1EA3F71800ABCDC2 /* cheering.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A661EA3F71800ABCDC2 /* cheering.mp3 */; };
 		3D9D6A6E1EA3F71800ABCDC2 /* choking.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A671EA3F71800ABCDC2 /* choking.mp3 */; };
 		3D9D6A6F1EA3F71800ABCDC2 /* crowd.mp3 in Resources */ = {isa = PBXBuildFile; fileRef = 3D9D6A681EA3F71800ABCDC2 /* crowd.mp3 */; };
@@ -32,7 +31,6 @@
 		3D9D6A581EA3E36C00ABCDC2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		3D9D6A621EA3F6C400ABCDC2 /* burp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = burp.mp3; path = sounds/burp.mp3; sourceTree = "<group>"; };
 		3D9D6A641EA3F71800ABCDC2 /* ambience.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = ambience.mp3; path = sounds/ambience.mp3; sourceTree = "<group>"; };
-		3D9D6A651EA3F71800ABCDC2 /* burp.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = burp.mp3; path = sounds/burp.mp3; sourceTree = "<group>"; };
 		3D9D6A661EA3F71800ABCDC2 /* cheering.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = cheering.mp3; path = sounds/cheering.mp3; sourceTree = "<group>"; };
 		3D9D6A671EA3F71800ABCDC2 /* choking.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = choking.mp3; path = sounds/choking.mp3; sourceTree = "<group>"; };
 		3D9D6A681EA3F71800ABCDC2 /* crowd.mp3 */ = {isa = PBXFileReference; lastKnownFileType = audio.mp3; name = crowd.mp3; path = sounds/crowd.mp3; sourceTree = "<group>"; };
@@ -75,7 +73,6 @@
 				3D9D6A501EA3E36C00ABCDC2 /* Main.storyboard */,
 				3D9D6A621EA3F6C400ABCDC2 /* burp.mp3 */,
 				3D9D6A641EA3F71800ABCDC2 /* ambience.mp3 */,
-				3D9D6A651EA3F71800ABCDC2 /* burp.mp3 */,
 				3D9D6A661EA3F71800ABCDC2 /* cheering.mp3 */,
 				3D9D6A671EA3F71800ABCDC2 /* choking.mp3 */,
 				3D9D6A681EA3F71800ABCDC2 /* crowd.mp3 */,
@@ -154,7 +151,6 @@
 				3D9D6A541EA3E36C00ABCDC2 /* Assets.xcassets in Resources */,
 				3D9D6A711EA3F71800ABCDC2 /* gasp.mp3 in Resources */,
 				3D9D6A701EA3F71800ABCDC2 /* cry.mp3 in Resources */,
-				3D9D6A6C1EA3F71800ABCDC2 /* burp.mp3 in Resources */,
 				3D9D6A6B1EA3F71800ABCDC2 /* ambience.mp3 in Resources */,
 				3D9D6A521EA3E36C00ABCDC2 /* Main.storyboard in Resources */,
 				3D9D6A6D1EA3F71800ABCDC2 /* cheering.mp3 in Resources */,
