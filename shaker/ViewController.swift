@@ -14,6 +14,10 @@ class ViewController: UIViewController {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
     }
+    
+    override func motionEnded(_ motion: UIEventSubtype, with event: UIEvent?) {
+        <#code#>
+    }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
